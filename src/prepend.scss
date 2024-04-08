@@ -1,0 +1,16 @@
+$color_bg_bk: #141414;
+$hover_color: #2574ff;
+$max-width: 672px;
+// マクロを定義
+@mixin media {
+  @media only screen and (min-width: 672px) {
+    @content;
+  }
+}
+
+ion-checkbox {
+  .label-text-wrapper {
+    color: red;
+    font-size: 1.2rem;
+  }
+}
